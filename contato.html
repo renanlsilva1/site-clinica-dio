@@ -19,11 +19,11 @@
         <nav class="menu__navigation">
             <ul class="menu-ul">
                 <li>
-                    <a href="index.html"><i>Página inicial</i></a>
+                    <a href="index.html">Página inicial</a>
                     
                 </li>
                 <li>
-                    <a href="sobre.html"><i>Sobre a clínica</i></a>
+                    <a href="sobre.html">Sobre a clínica</a>
                 </li>
                 <li>
                     <a href="atendimento.html">Horário de atendimento</a>
@@ -37,13 +37,7 @@
 
     <div class="main-content">
         <div class="content-text">
-            <h3 class="content-title">Bem-vindo</h3>
-            <p>
-                A <strong>Clínica RS</strong>, com mais de 15 anos de experiência, é um centro de referência em Medicina, para a cidade de Limeira e região.
-                Dispondo de moderna infraestrutura e tecnologia de ponta em equipamentos, aliada a um corpo clínico especializado.
-            </p>
-
-            <h3 class="content-title">A Clínica</h3>
+            <h3 class="content-title">Fale conosco</h3>
 
             <p>
                 Nossa equipe de atendimento está treinada para ouvir a necessidade de cada cliente e oferecer a melhor solução para realização dos seus exames.
@@ -54,8 +48,15 @@
     </div>
 
     <footer class="footer">
-        <div>
+        <div class="contact">
             Entre em contato conosco
+            <form class="contact-form" action="">
+                <p>Nome: <input type="text" name="nome" id="nome"></p>
+                <p>E-mail: <input type="email" name="email" id="email"> </p>
+                <p>assunto <input type="text" name="assunto" id="assunto"></p>
+                <p>Mensagem <textarea name="msg" id="msg" cols="20" rows="5"></textarea></p>
+                <button>Enviar</button>
+            </form>
         </div>
     </footer>
 </body>

@@ -19,11 +19,11 @@
         <nav class="menu__navigation">
             <ul class="menu-ul">
                 <li>
-                    <a href="index.html"><i>Página inicial</i></a>
+                    <a href="index.html">Página inicial</a>
                     
                 </li>
                 <li>
-                    <a href="sobre.html"><i>Sobre a clínica</i></a>
+                    <a href="sobre.html">Sobre a clínica</a>
                 </li>
                 <li>
                     <a href="atendimento.html">Horário de atendimento</a>
@@ -37,25 +37,56 @@
 
     <div class="main-content">
         <div class="content-text">
-            <h3 class="content-title">Bem-vindo</h3>
-            <p>
-                A <strong>Clínica RS</strong>, com mais de 15 anos de experiência, é um centro de referência em Medicina, para a cidade de Limeira e região.
-                Dispondo de moderna infraestrutura e tecnologia de ponta em equipamentos, aliada a um corpo clínico especializado.
-            </p>
-
-            <h3 class="content-title">A Clínica</h3>
-
-            <p>
-                Nossa equipe de atendimento está treinada para ouvir a necessidade de cada cliente e oferecer a melhor solução para realização dos seus exames.
-                Os espaços da clínica foram organizados pensando em garantir maior privacidade e bem-estar aos pacientes e concentração e tranquilidade aos profissionais. As salas são individualizadas e totalmente equipadas para realização de cada procedimento.
-                Pensando no cuidado e proteção dos nossos pacientes, seguimos todos os protocolos de segurança em relação aos ambientes de trabalho.
-            </p>
+            <h3 class="content-title">Atendimento</h3>
+            <table class="content-tabela" cellspacing="0">
+                <thead class="thead">
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clínica Geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>Oftalmolofgia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td> - </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
     <footer class="footer">
-        <div>
+        <div class="contact">
             Entre em contato conosco
+            <form class="contact-form" action="">
+                <p>Nome: <input type="text" name="nome" id="nome"></p>
+                <p>E-mail: <input type="email" name="email" id="email"> </p>
+                <p>assunto <input type="text" name="assunto" id="assunto"></p>
+                <p>Mensagem <textarea name="msg" id="msg" cols="20" rows="5"></textarea></p>
+                <button>Enviar</button>
+            </form>
         </div>
     </footer>
 </body>

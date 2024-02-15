@@ -19,11 +19,11 @@
         <nav class="menu__navigation">
             <ul class="menu-ul">
                 <li>
-                    <a href="index.html"><i>Página inicial</i></a>
+                    <a href="index.html">Página inicial</a>
                     
                 </li>
                 <li>
-                    <a href="sobre.html"><i>Sobre a clínica</i></a>
+                    <a href="sobre.html">Sobre a clínica</a>
                 </li>
                 <li>
                     <a href="atendimento.html">Horário de atendimento</a>
@@ -54,8 +54,15 @@
     </div>
 
     <footer class="footer">
-        <div>
+        <div class="contact">
             Entre em contato conosco
+            <form class="contact-form" action="">
+                <p>Nome: <input type="text" name="nome" id="nome"></p>
+                <p>E-mail: <input type="email" name="email" id="email"> </p>
+                <p>assunto <input type="text" name="assunto" id="assunto"></p>
+                <p>Mensagem <textarea name="msg" id="msg" cols="20" rows="5"></textarea></p>
+                <button>Enviar</button>
+            </form>
         </div>
     </footer>
 </body>
